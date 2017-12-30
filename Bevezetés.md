@@ -29,4 +29,4 @@ Igeként *to commit*: egy változatot elmenteni.
 
 Például:
 
-![](./media/image4.png)
+![elágazás](./media/image4.png)
