@@ -21,12 +21,14 @@ Ha kézzel végezzük a verziókövetést, a mappánk így nézhet ki:
 
 Több fájl esetén az egész mappából készíthetünk több változatot.
 
-**Commit**: egy mentett változat. (RevXX, filefixup-XX)
+**Commit**: egy pillanatfelvétel a fájlokról. (RevXX, filefixup-XX)
 
-Igeként *to commit*: egy változatot elmenteni.
+Igeként *to commit*: egy pillanatfelvételt elmenteni.
 
 **Branch**: elágazás. Több változatot fejlesztünk.
 
 Például:
 
-![elágazás](./media/image4.png)
+![](./media/image4.png)
+
+elágazás
