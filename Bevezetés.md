@@ -78,7 +78,7 @@ Kétféle terv (plan) közül választhatunk:
 Feladat
 -------
 
-Regisztrálj a gitHub szolgáltatásra, majd jelentkezz be!
+Regisztrálj a GitHub szolgáltatásra, majd jelentkezz be!
 
 GitHub Desktop
 --------------
@@ -91,5 +91,5 @@ GitHub-on lévőket is.
 Feladat
 -------
 
-Töltsd le a GitHub Desktop programot (https://desktop.github.com/), és
+Töltsd le a [GitHub Desktop](https://desktop.github.com/) programot, és
 telepítsd!
