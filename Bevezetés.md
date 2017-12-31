@@ -29,7 +29,9 @@ Ha kézzel végezzük a verziókövetést, a mappánk így nézhet ki:
 
 Több fájl esetén az egész mappából készíthetünk több változatot.
 
-**Commit**: Egy pillanatfelvétel a fájlokról. (RevXX, filefixup-XX)
+**Commit**: Egy pillanatfelvétel a fájlokról, amelyhez később vissza lehet
+térni.  
+(RevXX, filefixup-XX)
 
 Igeként *to commit*: egy pillanatfelvételt készíteni és elmenteni.
 
@@ -45,6 +47,8 @@ Git
 A legelterjedtebb verziókezelő rendszer (version control system). Linus Torvalds
 vezetéséve készítették a Linux kernel fejlesztéséhez.
 
+![](media/371f9621015a099bafdea5b7e4b7da78.png)
+
 **Distributed repository**: Mindenkinek saját, helyi másolata van a
 repository-ról, és abban dolgozik. (Internet nélkül is tud dolgozni.) A
 módosításokat időnként át kell másolni a többiek példányaiba is.
@@ -52,7 +56,7 @@ módosításokat időnként át kell másolni a többiek példányaiba is.
 ![](media/71c3b058736c744bec5438a024fe64b7.png)
 
 **Branching**: A fejlesztők külön ágakon dolgoznak, amelyeket később
-összefésülnek.
+összefésülnek (merging).
 
 ![](media/d93d30541d37f86b7ad38b5a1d88af5a.png)
 
@@ -62,8 +66,11 @@ szeretnénk commit-olni a repository-ba.
 GitHub
 ------
 
-Egy olyan szolgáltatás (<https://github.com/>), ahol tárolhatjuk, kezelhetjük és
-megoszthatjuk a Git repository-kat.
+Egy cég szolgáltatása (<https://github.com/>), ahol tárolhatjuk, kezelhetjük és
+megoszthatjuk a Git repository-kat. (Már 2015-ben több, mint 10 millió
+felhasználója volt.)
+
+![](media/78e54ebe2e28c5aed64c1941de96c0c2.png)
 
 A szolgáltatás igénybevételéhez regisztrálni kell név, e-mail cím és jelszó
 megadásával.
@@ -75,6 +82,15 @@ Kétféle terv (plan) közül választhatunk:
 
 -   *fizetős*: fizetős, de lehetnek privát projektjeink is.
 
+**Push** művelet: a helyi repository módosításainak feltöltése a távoli Github
+repository-ba.
+
+**Pull** művelet: Módosítások letöltése a távoli Github repository-ból a
+helyibe.
+
+**Fork** = elágazás: Valaki más lemásolja a repository-mat, és utána sajátjaként
+fejleszti tovább.
+
 Feladat
 -------
 
@@ -83,8 +99,8 @@ Regisztrálj a GitHub szolgáltatásra, majd jelentkezz be!
 GitHub Desktop
 --------------
 
-Asztali program, amely grafikus felületen kezeli a helyi Git repository-kat és a
-GitHub-on lévőket is.
+A Github által készített asztali program, amely grafikus felületen kezeli a
+helyi Git repository-kat és a GitHub-on lévőket is.
 
 ![](media/c53e08195965ab21a3e67eb972d07398.png)
 
@@ -92,4 +108,4 @@ Feladat
 -------
 
 Töltsd le a [GitHub Desktop](https://desktop.github.com/) programot, és
-telepítsd!
+telepítsd! A program indításakor ismét jelentkezz be!
