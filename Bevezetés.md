@@ -93,3 +93,4 @@ Feladat
 
 Töltsd le a [GitHub Desktop](https://desktop.github.com/) programot, és
 telepítsd!
+XXX
