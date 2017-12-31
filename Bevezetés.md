@@ -37,6 +37,8 @@ Igeként *to commit*: egy pillanatfelvételt készíteni és elmenteni.
 
 Például:
 
+![](media/95d356fac33156422cff6dbd6242e9ba.png)
+
 Git
 ---
 
