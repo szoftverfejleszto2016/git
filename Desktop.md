@@ -1,6 +1,20 @@
 A GitHub Desktop használata
 ===========================
 
+GitHub Desktop
+--------------
+
+A Github által készített asztali program, amely grafikus felületen kezeli a
+helyi Git repository-kat és a GitHub-on lévőket is.
+
+![](media/c53e08195965ab21a3e67eb972d07398.png)
+
+Feladat
+-------
+
+Töltsd le a [GitHub Desktop](https://desktop.github.com/) programot, és
+telepítsd! A program indításakor ismét jelentkezz be!
+
 bejelentkezés online a GitHub-ra
 
 új repo (), public, gitignore.io (Windows)
