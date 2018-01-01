@@ -202,5 +202,5 @@ fejleszti tovább.
 Házi feladat
 ------------
 
-Jelentkezz be a GitHub oldalra, és kattints az Explore gombra! nézz meg néhány
+Jelentkezz be a GitHub oldalra, és kattints az Explore gombra! Nézz meg néhány
 projektet!
