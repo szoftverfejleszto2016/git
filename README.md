@@ -1,7 +1,5 @@
-git
-===
-
-Verziókezelés git-tel Tananyag (lesz belőle...)
+Verziókezelés Git-tel és GitHub-bal
+===================================
 
 1.  [Bevezetés](Bevezetés.md)
 
