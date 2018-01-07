@@ -63,8 +63,7 @@ Klónozás
 
     ![](media/7fd671676cbb41a31ee1b03f88906713.png)
 
-    >     
-    >   Nézd meg az eredményt a GitHub-on!
+    Nézd meg az eredményt a GitHub-on!
 
 Elágazás
 --------
@@ -133,8 +132,7 @@ Elágazás
 
     ![](media/5384cfbf500599958f92975b819a84cf.png)
 
-    >     
-    >   Utána kattints a *Merge pull request*, majd a *Merge* gombra gombra!
+    Utána kattints a *Merge pull request*, majd a *Merge* gombra gombra!
 
 3.  Végül töröld a zöld ágat a GitHub-ról a *Delete branch* gombbal!
 
