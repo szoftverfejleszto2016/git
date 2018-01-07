@@ -34,7 +34,7 @@ térni.
 
 Igeként *to commit*: egy pillanatfelvételt készíteni és elmenteni.
 
-**Branch**: Elágazás. Több változatot fejlesztünk.
+**Branch**: Ág. Több változatot fejlesztünk.
 
 Például:
 
@@ -54,7 +54,7 @@ Legfontosabb jellemzői:
 szeretnénk commit-olni a repository-ba.
 
 **Distributed repository**: Mindenkinek saját, helyi másolata van a
-repository-ról, és abban dolgozik. (Internet nélkül is tud dolgozni.) A
+repository-ról, és abban dolgozik. (így internet nélkül is tud dolgozni.) A
 módosításokat időnként át kell másolni a többiek példányaiba is.
 
 ![](media/71c3b058736c744bec5438a024fe64b7.png)
@@ -72,9 +72,9 @@ is.)
 GitHub
 ------
 
-Egy cég szolgáltatása (<https://github.com/>), ahol tárolhatjuk, kezelhetjük és
-megoszthatjuk a Git repository-kat. (Már 2015-ben több, mint 10 millió
-felhasználója volt.)
+Egy cég internetes szolgáltatása (<https://github.com/>), ahol tárolhatjuk,
+kezelhetjük és megoszthatjuk a Git repository-kat. (A jegyzet írásakor már 26
+millió felhasználónál járnak.)
 
 ![](media/78e54ebe2e28c5aed64c1941de96c0c2.png)
 
@@ -94,6 +94,8 @@ repository-ba.
 **Pull** művelet: Módosítások letöltése a távoli Github repository-ból a
 helyibe. (másoké is!)
 
+**Collaborator**: akivel/akikkel együtt dolgozunk egy projekten.
+
 **Fork** = elágazás: Valaki más lemásolja a repository-mat, és utána sajátjaként
 fejleszti tovább.
 
@@ -109,20 +111,19 @@ fejleszti tovább.
 4.  Kapcsold be az Initialize this repository with a README jelölőnégyzetet,
     majd kattints a Create Repository gombra!
 
-5.  Nézd meg az új repository tartalmát!  
-    
+5.  Nézd meg az új repository tartalmát!
 
-    ![](media/dba85f4dae0fe1cb8e47b74c8020ee2a.png)
+![](media/dba85f4dae0fe1cb8e47b74c8020ee2a.png)
 
 ### Első commit-unk
 
 1.  Kattints a README.md fájlra, majd a megjelenő ablakban az Edit this file
     gombra (ceruza)!
 
-2.  Módosítsd valamit a szövegen, például írd be, hogy második sor! A szöveg
-    Markdown formátumban van (erre utal az .md kiterjesztés is), ezzel később
-    még foglalkozunk. Figyeld meg, hogy az első szintű címsort \# jelöli, és a
-    két sor egymás mellé került!
+2.  Módosítsd valamit a szövegen, például írd be egy új sorba, hogy második sor!
+    A szöveg Markdown formátumban van (erre utal az .md kiterjesztés is), ezzel
+    később még foglalkozunk. Figyeld meg, hogy az első szintű címsort \# jelöli,
+    és a két beírt sor egymás mellé került!
 
 3.  Válts át a Preview changes fülre, és nézd meg a módosításokat!
 
@@ -137,67 +138,58 @@ fejleszti tovább.
 1.  Válts vissza a proba1 repository-ra, és kattints a Branch: master gombra!
 
 2.  Írj be egy nevet (pl. újág), majd kattints a Create branch gombra! Ezzel
-    létrejön egy új ág, amely a master ág másolata.  
-    
+    létrejön egy új ág, amely a master ág másolata.
 
-    ![](media/107ae0ab4bdec2a0ce570216c4903e15.png)
+![](media/107ae0ab4bdec2a0ce570216c4903e15.png)
 
-3.  Kattints a New file gombra, majd adj nevet az új fájlnak (ujfile.md)!
+1.  Kattints a New file gombra, majd adj nevet az új fájlnak (ujfile.md)!
 
-4.  Írj be valamit, nézd meg az előképet, majd commit-old az újág-ba! Így a
-    master ágba nem kerül bele.  
-    
+2.  Írj be valamit, nézd meg az előképet, majd commit-old az újág-ba! Így a
+    master ágba nem kerül bele.
 
-    ![](media/7e2ac99510b31d472b7be0c15eaa531c.png)
+![](media/7e2ac99510b31d472b7be0c15eaa531c.png)
 
-5.  Kattints a 3 commits gombra, hogy megnézd az újág commit-jeit!  
-    
+1.  Kattints a 3 commits gombra, hogy megnézd az újág commit-jeit!
 
-    ![](media/54ebe0cfa993cc69e9970d811cd8c487.png)
+![](media/54ebe0cfa993cc69e9970d811cd8c487.png)
 
-6.  Figyeld meg, hogy a master ág commit-jei is átmásolódtak ide az újág
+1.  Figyeld meg, hogy a master ág commit-jei is átmásolódtak ide az újág
     létrehozásakor!
 
-7.  Figyeld meg, hogy minden commit-nak (és minden més objektumnak) van egy SHA
+2.  Figyeld meg, hogy minden commit-nak (és minden más objektumnak) van egy SHA
     azonosítója, amelynek első része látható, és az egész rámásolható a
     vágólapra egy gombbal  
     (pl. 165e52ce75a9e3eb432aedc5772891ad3f94b288)!
 
-8.  Kattints a README.md módosítása commit-re, és nézd meg, milyen módosításokat
-    tartalmaz! Próbáld ki a Split gombot!  
-    
+3.  Kattints a README.md módosítása commit-re, és nézd meg, milyen módosításokat
+    tartalmaz! Próbáld ki a Split gombot!
 
-    ![](media/853de9f0ba894ed88903863aba7a034d.png)
+![](media/853de9f0ba894ed88903863aba7a034d.png)
 
-9.  Kattints a Browse files gombra! Mit látsz, és mit nem?
+1.  Kattints a Browse files gombra! Mit látsz, és mit nem?
 
 ### Ágak egyesítése
 
 1.  Menj vissza az előző oldalra (a commit-ekhez), és kattints a Compare & pull
-    request gombra!  
-    
+    request gombra!
 
-    ![](media/72d70996927a0cd149c3bad491922ae7.png)
+![](media/72d70996927a0cd149c3bad491922ae7.png)
 
-      
-    Figyeld meg, hogy az ágak automatikusan összefésülhetők!
+Figyeld meg, hogy az ágak automatikusan összefésülhetők!
 
-2.  Az ágak összefésülését lehet, hogy más végzi. Írj neki egy üzenetet, majd
-    nyomd meg a Create Pull Request gombot!  
-    
+1.  Az ágak összefésülését lehet, hogy más végzi. Írj neki egy üzenetet, majd
+    nyomd meg a Create Pull Request gombot!
 
-    ![](media/03f20fcb215e134b8ee9c2c90a168f7a.png)
+![](media/03f20fcb215e134b8ee9c2c90a168f7a.png)
 
-3.  Nézd meg a Pull request lapot, majd kattints a Merge pull request gombra!
-    Utána nyomd meg a Confirm merge gombot is!  
-    
+1.  Nézd meg a Pull request lapot, majd kattints a Merge pull request gombra!
+    Utána nyomd meg a Confirm merge gombot is!
 
-    ![](media/fda8f5f8eaf7092d821e407c41ab5034.png)
+![](media/fda8f5f8eaf7092d821e407c41ab5034.png)
 
-4.  Töröld le a feleslegessé vált ágat!  
-    
+1.  Töröld le a feleslegessé vált ágat!
 
-    ![](media/1d5a07369c4ec6f9c5909dc5b0598ed5.png)
+![](media/1d5a07369c4ec6f9c5909dc5b0598ed5.png)
 
 Házi feladat
 ------------
