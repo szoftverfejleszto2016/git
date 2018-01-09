@@ -39,21 +39,21 @@ Klónozás
 
 ![](media/91e99d69657516488f72eb28b76e29a3.png)
 
-1.  Másold be a *vulkan* mappából az *index.html* és a *stilusok.css* fájlokat a
+2.  Másold be a *vulkan* mappából az *index.html* és a *stilusok.css* fájlokat a
     *weblap1* mappába!
 
-2.  A Desktop programban nézd meg a változásokat (Changes), írj egy megjegyzést,
+3.  A Desktop programban nézd meg a változásokat (Changes), írj egy megjegyzést,
     majd kattints a *Commit to master* gombra!
 
 ![](media/2d62c1a335e424fed78257a71586e237.png)
 
-1.  Ezzel a helyi repository-ba mentettük a módosításokat. Utána a GitHub-on
+4.  Ezzel a helyi repository-ba mentettük a módosításokat. Utána a GitHub-on
     lévő távoli repository-t is frissíteni kell. Kattints a *Publish
     repository* gombra!
 
 ![](media/f0665b0df85ebcf199a312ff87a2c257.png)
 
-2.  Utána töltsd ki a párbeszédpanelt, és itt is kattints a Publish repository
+5.  Utána töltsd ki a párbeszédpanelt, és itt is kattints a Publish repository
     gombra! Nézd meg az eredményt a GitHub-on!
 
 ![](media/7fd671676cbb41a31ee1b03f88906713.png)
